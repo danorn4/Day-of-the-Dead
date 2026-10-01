@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Del recuerdo a la eternidad</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap">
+<style>
+:root{--bg:#f8f4fb;--fg:#2b1740;--mute:#5c4a70;--card:#fff;--line:#e3d6ee;--gold:#e8890c;--pink:#c2185b;--teal:#0e8a83;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c0f2e;--fg:#f3eaf9;--mute:#c4b2d6;--card:#2a1842;--line:#43295f;--gold:#ffb23e;--pink:#ff6fa5;--teal:#3fd0c6}}
+:root[data-theme="dark"]{--bg:#1c0f2e;--fg:#f3eaf9;--mute:#c4b2d6;--card:#2a1842;--line:#43295f;--gold:#ffb23e;--pink:#ff6fa5;--teal:#3fd0c6}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:1.0625rem/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}
+.pp{display:block}.c{fill:var(--bg)}
+.bar{display:flex;justify-content:center;padding:16px 16px 0}
+.tog{display:inline-flex;border:2px solid var(--fg);border-radius:999px;overflow:hidden}
+.tog button{font:inherit;font-weight:600;padding:8px 22px;border:0;background:transparent;color:var(--fg);cursor:pointer;min-height:44px}
+.tog button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.tog button:focus-visible{outline:3px solid var(--gold);outline-offset:-3px}
+main{max-width:40rem;margin:0 auto;padding:8px 20px 0}
+p{margin:0 0 1.1em}
+h1,.big,blockquote{font-family:"Fraunces",Georgia,serif}
+h1{font-size:clamp(2.1rem,8vw,3rem);line-height:1.1;margin:.6em 0 .2em;color:var(--pink);text-align:center}
+.sub{text-align:center;color:var(--teal);font-weight:600;margin-bottom:1.6em}
+.art{display:flex;justify-content:center;margin:1.4em 0}.art svg{max-width:100%;height:auto}
+.qs{list-style:none;padding:0;margin:0 0 1.2em;display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:10px}
+.qs li{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:8px;padding:10px 14px;font-weight:600}
+.qs li:nth-child(3n+2){border-top-color:var(--pink)}.qs li:nth-child(3n){border-top-color:var(--teal)}
+.steps{list-style:none;padding:0;margin:0 0 1.4em;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding:4px 0 18px 54px;font-weight:600}
+.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--pink);color:#fff;display:grid;place-items:center;font-family:"Fraunces",Georgia,serif}
+.steps li:not(:last-child):after{content:"";position:absolute;left:18px;top:40px;bottom:2px;width:2px;background:var(--line)}
+.steps li:nth-child(2):before{background:var(--gold);color:#2b1740}.steps li:nth-child(3):before{background:var(--teal)}.steps li:nth-child(4):before{background:#7b3fa0}.steps li:nth-child(5):before{background:#2b1740;border:2px solid var(--gold)}
+blockquote{margin:1.4em 0;padding:6px 0 6px 18px;border-left:5px solid var(--gold);font-size:1.2rem;line-height:1.55}
+.sum{list-style:none;padding:0;margin:0 0 1.4em;display:grid;gap:10px}
+.sum li{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--pink);border-radius:8px;padding:12px 16px;font-weight:600}
+.sum li:nth-child(2){border-left-color:var(--gold)}.sum li:nth-child(3){border-left-color:var(--teal)}.sum li:nth-child(4){border-left-color:#7b3fa0}
+.hl{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;text-align:center;font-weight:600;line-height:1.9}
+.big{font-size:1.6rem;line-height:1.3;text-align:center;color:var(--pink);font-weight:700;margin:.4em 0 1em}
+.fin{margin:2.4em 0 0;padding:28px 20px calc(36px + env(safe-area-inset-bottom,0px));background:linear-gradient(160deg,#2b1740,#6a1b5e 60%,#c2185b);color:#fff;text-align:center}
+.fin p{max-width:36rem;margin:0 auto;font:700 1.35rem/1.45 "Fraunces",Georgia,serif}
+.ph{width:100%;max-height:420px;object-fit:cover;border-radius:12px;display:block}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<svg class="pp" width="100%" height="78" aria-hidden="true" focusable="false">
+<defs>
+<g id="f"><path style="fill:currentColor" d="M4 8H60V62L53 70L46 62L39 70L32 62L25 70L18 62L11 70L4 62Z"/>
+<g class="c"><circle cx="10" cy="15" r="1.7"/><circle cx="21" cy="15" r="1.7"/><circle cx="32" cy="15" r="1.7"/><circle cx="43" cy="15" r="1.7"/><circle cx="54" cy="15" r="1.7"/>
+<circle cx="32" cy="36" r="3.2"/><ellipse cx="32" cy="36" rx="12" ry="3.4"/><ellipse cx="32" cy="36" rx="12" ry="3.4" transform="rotate(45 32 36)"/><ellipse cx="32" cy="36" rx="12" ry="3.4" transform="rotate(90 32 36)"/><ellipse cx="32" cy="36" rx="12" ry="3.4" transform="rotate(135 32 36)"/>
+<path d="M32 51L36 56L32 61L28 56Z"/><path d="M11 46L14 51L11 56L8 51Z"/><path d="M53 46L56 51L53 56L50 51Z"/></g></g>
+<pattern id="p" width="192" height="78" patternUnits="userSpaceOnUse">
+<line x1="0" x2="192" y1="6" y2="6" style="stroke:var(--fg);stroke-width:1.5"/>
+<use href="#f" x="0" style="color:var(--pink)"/><use href="#f" x="64" style="color:var(--gold)"/><use href="#f" x="128" style="color:var(--teal)"/>
+</pattern></defs>
+<rect width="100%" height="78" fill="url(#p)"/></svg>
+<div class="bar"><div class="tog" role="group" aria-label="Language / Idioma">
+<button type="button" data-l="es" aria-pressed="true">Español</button>
+<button type="button" data-l="en" aria-pressed="false">English</button></div></div>
+
+<template id="frame"><svg width="170" viewBox="0 0 160 150" role="img" aria-label=""><rect x="30" y="8" width="100" height="110" rx="6" fill="var(--card)" stroke="var(--gold)" stroke-width="6"/><circle cx="80" cy="52" r="18" fill="var(--mute)"/><path d="M44 110Q44 78 80 78Q116 78 116 110Z" fill="var(--mute)"/><g fill="var(--gold)"><circle cx="46" cy="132" r="9"/><circle cx="68" cy="138" r="9"/><circle cx="92" cy="138" r="9"/><circle cx="114" cy="132" r="9"/></g><g fill="var(--pink)"><circle cx="46" cy="132" r="3"/><circle cx="68" cy="138" r="3"/><circle cx="92" cy="138" r="3"/><circle cx="114" cy="132" r="3"/></g></svg></template>
+<template id="chain"><svg width="360" viewBox="0 0 360 90" role="img" aria-label=""><line x1="30" y1="45" x2="330" y2="45" stroke="var(--line)" stroke-width="5"/><g id="sil"><circle cy="-6" r="6" fill="#fff"/><path d="M-11 14Q-11 3 0 3Q11 3 11 14Z" fill="#fff"/></g><g><circle cx="40" cy="45" r="24" fill="var(--pink)"/><circle cx="110" cy="45" r="24" fill="var(--gold)"/><circle cx="180" cy="45" r="24" fill="var(--teal)"/><circle cx="250" cy="45" r="24" fill="#7b3fa0"/><circle cx="320" cy="45" r="24" fill="var(--pink)"/></g><use href="#sil" x="40" y="45"/><use href="#sil" x="110" y="45"/><use href="#sil" x="180" y="45"/><use href="#sil" x="250" y="45"/><use href="#sil" x="320" y="45"/></svg></template>
+<template id="temple"><svg width="230" viewBox="0 0 240 180" role="img" aria-label=""><g fill="#ffb23e"><circle cx="30" cy="30" r="3"/><circle cx="205" cy="22" r="2.5"/><circle cx="60" cy="70" r="2"/><circle cx="185" cy="64" r="3"/><circle cx="14" cy="95" r="2"/><circle cx="228" cy="98" r="2"/></g><g fill="#fff"><path d="M120 6L129 42H111Z" fill="#ffb23e"/><rect x="105" y="42" width="30" height="40"/><rect x="78" y="82" width="84" height="68"/><rect x="52" y="98" width="26" height="52"/><rect x="162" y="98" width="26" height="52"/><path d="M65 78L73 98H57Z" fill="#ffb23e"/><path d="M175 78L183 98H167Z" fill="#ffb23e"/><rect x="62" y="150" width="116" height="8"/><rect x="48" y="158" width="144" height="8"/><rect x="36" y="166" width="168" height="8"/></g><g fill="#6a1b5e"><path d="M114 150V120Q120 108 126 120V150Z"/><rect x="113" y="52" width="14" height="18" rx="7"/><rect x="88" y="94" width="10" height="20" rx="5"/><rect x="142" y="94" width="10" height="20" rx="5"/><rect x="60" y="110" width="10" height="20" rx="5"/><rect x="170" y="110" width="10" height="20" rx="5"/></g></svg></template>
+
+<main>
+<section id="es" lang="es">
+<h1>Del recuerdo a la eternidad</h1>
+<p class="sub">Día de Muertos, historia familiar y obra en el templo</p>
+<p>En México, el Día de Muertos es una tradición que invita a las familias a recordar con cariño a sus seres queridos que han fallecido. En muchos hogares se colocan fotografías, flores, alimentos y objetos que recuerdan momentos importantes de su vida. De esta manera, el altar se convierte en un espacio de memoria familiar.</p>
+<div class="art"><img class="ph" data-k="altar" src="altar.jpg" alt="" onerror="this.parentNode.remove()"></div>
+<p><strong>Cada fotografía representa una persona. Cada persona tiene un nombre, una historia y una familia.</strong></p>
+<p>Para los miembros de La Iglesia de Jesucristo de los Santos de los Últimos Días, el Día de Muertos y el altar son una tradición cultural y no constituyen una ordenanza ni una práctica religiosa de la Iglesia. Sin embargo, el deseo de recordar a quienes vivieron antes que nosotros puede ayudarnos a comprender una enseñanza muy importante del Evangelio: la familia ocupa un lugar central en el plan de Dios y los vínculos familiares pueden continuar después de la muerte.</p>
+<p>Cuando vemos la fotografía de un abuelo, una bisabuela o algún otro familiar que ya falleció, podemos ir más allá del recuerdo y preguntarnos:</p>
+<ul class="qs"><li>¿Quién fue?</li><li>¿Dónde nació?</li><li>¿Quiénes fueron sus padres?</li><li>¿Cómo fue su vida?</li><li>¿Qué enseñanzas dejó a su familia?</li><li>¿Quiénes fueron sus antepasados?</li></ul>
+<p>Estas preguntas pueden ser el comienzo de la historia familiar.</p>
+<p>La Iglesia invita a sus miembros a conocer a sus antepasados, investigar documentos, fotografías, actas y recuerdos familiares, y conservar esas historias para las nuevas generaciones.</p>
+<p>Pero la genealogía tiene un propósito que va más allá de conocer nombres y fechas.</p>
+<p>Creemos que, gracias a Jesucristo y Su Resurrección, la muerte no es el final de nuestra existencia. También creemos que quienes fallecieron sin haber tenido la oportunidad de recibir el Evangelio y sus ordenanzas pueden tener esa oportunidad dentro del plan de nuestro Padre Celestial.</p>
+<p>Por ello buscamos a nuestros antepasados.</p>
+<p>Cuando logramos identificarlos, podemos llevar sus nombres a la Casa del Señor, el templo, donde se realizan ordenanzas sagradas en favor de quienes han fallecido.</p>
+<p>Estas ordenanzas no obligan a nadie. La Iglesia enseña que nuestros antepasados conservan su albedrío y pueden aceptar o rechazar lo que se realiza en su nombre.</p>
+<p>Así, la historia familiar y la obra del templo se relacionan de una manera sencilla y hermosa:</p>
+<ol class="steps"><li>Primero encontramos una fotografía.</li><li>Después conocemos un nombre.</li><li>Detrás del nombre descubrimos una historia.</li><li>La historia nos conduce a una familia.</li><li>Y la familia puede conducirnos al templo.</li></ol>
+<p>Las Escrituras hablan de esta obra. El profeta Malaquías enseñó que el corazón de los padres se volvería hacia los hijos y el corazón de los hijos hacia sus padres (Malaquías 4:5–6).</p>
+<p>Ese sentimiento puede comenzar cuando sentimos curiosidad, cariño y gratitud por quienes vivieron antes que nosotros.</p>
+<p>Por eso, al contemplar un altar de muertos, además de apreciar respetuosamente su significado cultural, podemos pensar:</p>
+<blockquote>“Quiero conocer mejor a estas personas. Quiero saber sus nombres, sus historias y quiénes fueron sus padres y abuelos. Quiero conservar su memoria para mis hijos y mis nietos.”</blockquote>
+<p>Ese deseo puede convertirse en historia familiar.</p>
+<p><strong>Y la historia familiar puede conducirnos al templo.</strong></p>
+<p>En el templo encontramos algo que va más allá del recuerdo: la oportunidad de servir a nuestros antepasados mediante ordenanzas sagradas y de participar en la obra que permite que las familias puedan estar unidas por la eternidad.</p>
+<p>Podemos resumirlo de esta manera:</p>
+<ul class="sum"><li>La tradición nos invita a recordarlos.</li><li>La historia familiar nos invita a conocerlos.</li><li>El templo nos invita a servirles.</li><li>Y Jesucristo hace posible que la muerte no sea el final de la familia.</li></ul>
+<div class="art" data-a="chain"></div>
+<p>Cada familia forma parte de una gran cadena de generaciones: nuestros padres, abuelos, bisabuelos, tatarabuelos y muchos otros antepasados. Nosotros también somos un eslabón de esa cadena, y después de nosotros vendrán nuestros hijos, nietos y futuras generaciones.</p>
+<p>Por eso, la historia familiar no consiste solamente en recopilar nombres y fechas. Consiste en volver nuestro corazón hacia nuestra familia.</p>
+<p>Al conservar fotografías, registrar historias, investigar a nuestros antepasados y realizar por ellos la obra del templo, ayudamos a unir generaciones.</p>
+<p><strong>Y todo adquiere su verdadero significado en Jesucristo.</strong></p>
+<p>No adoramos a nuestros antepasados ni creemos que un altar tenga poder para salvarlos. Los recordamos, los honramos y los amamos, pero nuestra esperanza está puesta en Jesucristo.</p>
+<p class="hl">Él venció la muerte.<br>Él hizo posible la Resurrección.<br>Y gracias a Él, la familia puede tener una dimensión eterna.</p>
+<p style="margin-top:1.6em">Por eso, cuando recordemos a quienes ya partieron, no pensemos solamente en el pasado.</p>
+<p class="big">Pensemos también en la eternidad.</p>
+<p>Una fotografía antigua, un nombre escrito detrás de una imagen o una historia contada por nuestros abuelos puede ser el comienzo de una búsqueda que nos acerque a nuestros antepasados, a la historia familiar y finalmente a la Casa del Señor.</p>
+</section>
+
+<section id="en" lang="en" hidden>
+<h1>From Remembrance to Eternity</h1>
+<p class="sub">Day of the Dead, Family History, and Temple Work</p>
+<p>In Mexico, Day of the Dead is a tradition that invites families to lovingly remember their loved ones who have passed away. In many homes, photographs, flowers, food, and objects that recall important moments of their lives are placed on display. In this way, the altar becomes a space of family memory.</p>
+<div class="art"><img class="ph" data-k="altar" src="altar.jpg" alt="" onerror="this.parentNode.remove()"></div>
+<p><strong>Each photograph represents a person. Each person has a name, a story, and a family.</strong></p>
+<p>For members of The Church of Jesus Christ of Latter-day Saints, Day of the Dead and the altar are a cultural tradition and are not an ordinance or a religious practice of the Church. However, the desire to remember those who lived before us can help us understand a very important teaching of the gospel: the family is central to God’s plan, and family bonds can continue after death.</p>
+<p>When we see the photograph of a grandfather, a great-grandmother, or another relative who has passed away, we can go beyond remembering and ask ourselves:</p>
+<ul class="qs"><li>Who was this person?</li><li>Where were they born?</li><li>Who were their parents?</li><li>What was their life like?</li><li>What teachings did they leave their family?</li><li>Who were their ancestors?</li></ul>
+<p>These questions can be the beginning of family history.</p>
+<p>The Church invites its members to get to know their ancestors, research documents, photographs, records, and family memories, and preserve those stories for new generations.</p>
+<p>But genealogy has a purpose that goes beyond knowing names and dates.</p>
+<p>We believe that, thanks to Jesus Christ and His Resurrection, death is not the end of our existence. We also believe that those who died without having had the opportunity to receive the gospel and its ordinances can have that opportunity within the plan of our Heavenly Father.</p>
+<p>That is why we seek out our ancestors.</p>
+<p>When we are able to identify them, we can take their names to the House of the Lord, the temple, where sacred ordinances are performed on behalf of those who have passed away.</p>
+<p>These ordinances do not compel anyone. The Church teaches that our ancestors keep their agency and can accept or reject what is done in their name.</p>
+<p>In this way, family history and temple work are related in a simple and beautiful way:</p>
+<ol class="steps"><li>First we find a photograph.</li><li>Then we learn a name.</li><li>Behind the name we discover a story.</li><li>The story leads us to a family.</li><li>And the family can lead us to the temple.</li></ol>
+<p>The scriptures speak of this work. The prophet Malachi taught that the hearts of the fathers would turn to the children and the hearts of the children to their fathers (Malachi 4:5–6).</p>
+<p>That feeling can begin when we feel curiosity, affection, and gratitude for those who lived before us.</p>
+<p>That is why, when we look at a Day of the Dead altar, in addition to respectfully appreciating its cultural meaning, we can think:</p>
+<blockquote>“I want to get to know these people better. I want to know their names, their stories, and who their parents and grandparents were. I want to preserve their memory for my children and grandchildren.”</blockquote>
+<p>That desire can become family history.</p>
+<p><strong>And family history can lead us to the temple.</strong></p>
+<p>In the temple we find something that goes beyond remembrance: the opportunity to serve our ancestors through sacred ordinances and to take part in the work that allows families to be united for eternity.</p>
+<p>We can sum it up this way:</p>
+<ul class="sum"><li>Tradition invites us to remember them.</li><li>Family history invites us to know them.</li><li>The temple invites us to serve them.</li><li>And Jesus Christ makes it possible for death not to be the end of the family.</li></ul>
+<div class="art" data-a="chain"></div>
+<p>Every family is part of a great chain of generations: our parents, grandparents, great-grandparents, great-great-grandparents, and many other ancestors. We too are a link in that chain, and after us will come our children, grandchildren, and future generations.</p>
+<p>That is why family history is not just about gathering names and dates. It is about turning our hearts to our family.</p>
+<p>By preserving photographs, recording stories, researching our ancestors, and performing temple work for them, we help unite generations.</p>
+<p><strong>And everything takes on its true meaning in Jesus Christ.</strong></p>
+<p>We do not worship our ancestors or believe that an altar has the power to save them. We remember them, honor them, and love them, but our hope is in Jesus Christ.</p>
+<p class="hl">He overcame death.<br>He made the Resurrection possible.<br>And thanks to Him, the family can have an eternal dimension.</p>
+<p style="margin-top:1.6em">So when we remember those who have departed, let us not think only of the past.</p>
+<p class="big">Let us think of eternity as well.</p>
+<p>An old photograph, a name written on the back of a picture, or a story told by our grandparents can be the beginning of a search that brings us closer to our ancestors, to family history, and finally to the House of the Lord.</p>
+</section>
+</main>
+
+<div class="fin"><div class="art" style="margin-top:0"><img class="ph" data-k="temple" src="temple.jpg" alt="" onerror="this.replaceWith(document.getElementById('temple').content.cloneNode(true))"></div>
+<p id="fes">Porque, en el plan de nuestro Padre Celestial, gracias a Jesucristo, la familia no fue creada solamente para esta vida, sino para la eternidad.</p>
+<p id="fen" lang="en" hidden>Because, in the plan of our Heavenly Father, thanks to Jesus Christ, the family was not created only for this life, but for eternity.</p></div>
+
+<script>
+(function(){
+document.querySelectorAll("[data-a]").forEach(function(e){e.appendChild(document.getElementById(e.dataset.a).content.cloneNode(true))});
+var btns=document.querySelectorAll(".tog button");
+function set(l){
+["es","en"].forEach(function(x){document.getElementById(x).hidden=l!==x;document.getElementById("f"+x).hidden=l!==x});
+document.documentElement.lang=l;
+var A={es:{altar:"Altar de Día de Muertos",temple:"Un templo de La Iglesia de Jesucristo de los Santos de los Últimos Días"},en:{altar:"Day of the Dead altar",temple:"A temple of The Church of Jesus Christ of Latter-day Saints"}};
+document.querySelectorAll("img.ph").forEach(function(i){i.alt=A[l][i.dataset.k]});
+document.title=l==="es"?"Del recuerdo a la eternidad":"From Remembrance to Eternity";
+btns.forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.l===l))});
+}
+btns.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.l);window.scrollTo(0,0)})});
+var q=(location.search.match(/[?&]lang=(en|es)/)||[])[1];
+var nav=(navigator.languages&&navigator.languages[0])||navigator.language||"es";
+set(q||(/^en/i.test(nav)?"en":"es"));
+})();
+</script>
+</body>
+</html>
